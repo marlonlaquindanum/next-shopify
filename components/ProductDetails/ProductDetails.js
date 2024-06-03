@@ -4,6 +4,7 @@ import { useState } from "react";
 import { addToCart, updateCart } from "../../utils/shopify";
 import Header from "../Header/Header";
 import styles from "./ProductDetails.module.css";
+
 export default function ProductDetails({ product }) {
   const [quantity, setQuantity] = useState(0);
   const [checkout, setCheckout] = useState(false);

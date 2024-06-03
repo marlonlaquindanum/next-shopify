@@ -77,6 +77,7 @@ export async function updateCart(cartId, itemId, quantity) {
       }
     }
   `;
+
   const variables = {
     cartId: cartId,
     lines: [
